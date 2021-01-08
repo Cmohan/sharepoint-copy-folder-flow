@@ -2,7 +2,7 @@ When I start a project, there are usually three files that I know I'm going to n
 
 The first step in creating this automation is to create a template folder in SharePoint containing all the default files you need to kick-off your project. You can store it in the same place as you want to store the project files or you can store it somewhere else. Here's mine as an example:
 
-![View of template folder to be copied](template-folder.png)
+![View of template folder to be copied](https://raw.githubusercontent.com/Cmohan/sharepoint-copy-folder-flow/main/template-folder.png)
 
 Once you have this folder setup, you can begin creating the Power Automate Instant Flow. The trigger is the "For a selected file" SharePoint block. This will add this flow to the SharePoint document library menu so you can trigger it from the SharePoint site itself. In the trigger block, you can also add a field so you can enter the name of the client or the project to be added the new folder.
 
@@ -14,6 +14,6 @@ Once the trigger is setup, you can begin adding the following blocks to build th
 
 Here's what the automation looks like in the Flow Designer:
 
-![View of automation in Flow Designer](Flow.png)
+![View of automation in Flow Designer](https://raw.githubusercontent.com/Cmohan/sharepoint-copy-folder-flow/main/Flow.png)
 
 This is a small automation that you can get up and running quickly. It's also a great way to get started with Power Automate and see what other automation options it has for you.
